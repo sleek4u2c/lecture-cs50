@@ -1,3 +1,31 @@
-h1 {color: blue;
+h1 {color: red;
     text-align: center;
   }
+p {color: blue;
+  }
+div {background-color: teal;
+    width:inherit;
+    height:inherit;
+    margin: 30px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight:inherit;
+  }
+  div{margin: 20px
+  }
+img{border: 5px solid blue;
+    margin: 30px;
+    padding: 20px;
+  }
+  table{border: 2px solid black;
+        margin: 30px;
+        padding: 5px;
+        border-collapse: collapse;
+        width: 40%;
+        text-align: center;
+      }
+th, td{border: 1px solid black; padding: 5px;}
+th{background-color: lightgray;}
+#divitalic {font-style: italic; color: blue;}
+.spanbold {font-weight: bold;color: red;}
